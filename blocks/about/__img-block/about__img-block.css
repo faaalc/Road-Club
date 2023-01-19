@@ -1,0 +1,27 @@
+.about__img-block {
+  min-width: 50%;
+  min-height: 836px;
+  position: relative;
+  margin-left: 50px;
+  background-image: url(../../../images/about/about-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
+}
+@media screen and (max-width: 1024px) {
+  .about__img-block {
+    min-height: 740px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about__img-block {
+    grid-column: 1;
+    grid-row: 2;
+    min-width: 90%;
+    min-height: 348px;
+    margin-left: 0;
+    justify-self: end;
+  }
+}

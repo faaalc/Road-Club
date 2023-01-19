@@ -1,0 +1,22 @@
+.quote__author {
+  margin: 0 0 6px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}
+@media screen and (max-width: 1024px) {
+  .quote__author {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .quote__author {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .quote__author {
+    text-align: start;
+  }
+}

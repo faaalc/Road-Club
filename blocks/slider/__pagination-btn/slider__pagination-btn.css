@@ -1,0 +1,33 @@
+.slider__pagination-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #434343;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity .2s;
+  cursor: pointer;
+}
+.slider__pagination-btn:hover {
+  opacity: .6;
+}
+@media screen and (max-width: 1024px) {
+  .slider__pagination-btn {
+    width: 42px;
+    height: 42px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider__pagination-btn {
+    width: 36px;
+    height: 36px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .slider__pagination-btn {
+    width: 24px;
+    height: 24px;
+  }
+}

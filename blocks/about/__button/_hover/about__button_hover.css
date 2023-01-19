@@ -1,0 +1,9 @@
+.about__button_hover::after {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+.about__button_hover:hover::after {
+  width: 100%;
+}

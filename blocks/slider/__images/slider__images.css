@@ -1,0 +1,18 @@
+.slider__images {
+  display: flex;
+  gap: 40px;
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 1024px) {
+  .slider__images {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider__images {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  padding: 28px 120px;
+  background-color: #333333;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 26px 18px;
+  }
+}

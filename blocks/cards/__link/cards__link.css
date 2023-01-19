@@ -1,0 +1,21 @@
+.cards__link {
+  display: block;
+  padding: 20px;
+  margin-bottom: 22px;
+  background: #F4F4F4;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__link {
+    padding: 14px 14px 0;
+    box-sizing: border-box;
+    width: 284px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cards__link {
+    margin: 0 auto;
+  }
+}

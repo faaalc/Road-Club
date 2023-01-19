@@ -1,0 +1,21 @@
+.cards__select {
+  display: none;
+  padding: 6px 12px;
+  width: 114px;
+  height: 30px;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 127%;
+  color: #FFFFFF;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__select {
+    display: block;
+    margin-bottom: 20px;
+  }
+}

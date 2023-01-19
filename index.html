@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Road Club</title>
+</head>
+<body class="root">
+
+<header class="header container">
+  <nav>
+    <ul class="header__links">
+      <li><a class="header__link" href="#covers">Покрытия и градиенты</a></li>
+      <li><a class="header__link" href="#bicycles">Велосипеды</a></li>
+      <li><a class="header__link" href="#workout">Тренировки</a></li>
+    </ul>
+    <button type="button" class="header__burger"></button>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section class="about">
+    <h1 class="about__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
+    <p class="about__description">Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+    <a href="#" class="about__button about__button_hover">Подробнее</a>
+    <p class="about__bike-name">Cannondale Systemsix</p>
+    <div class="about__img-block">
+      <img class="about__img" src="./images/about/about-bike.png" alt="Горный велосипед">
+    </div>
+  </section>
+
+  <section class="quote">
+    <img class="quote__img" src="./images/quote/quote-img.png" alt="Велосипедист в горах">
+    <div class="quote__text">
+      <h2 class="quote__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+      <p class="quote__author">Эдди Меркс</p>
+      <p class="quote__author-subline">Велогонщик</p>
+    </div>
+  </section>
+
+  <section class="slider" id="covers">
+    <h2 class="slider__title">Шоссе</h2>
+    <p class="slider__text">На шоссейном велосипеде можно ездить по асфальту на разных градиентах: будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и самостоятельно.</p>
+    <div class="slider__images">
+      <img class="slider__img" src="./images/slider/slider-img-1.png" alt="Дорога в горах">
+      <img class="slider__img" src="./images/slider/slider-img-2.png" alt="Дорога в лесу">
+      <div class="slider__overlay">
+        <img class="slider__overlay-img" src="./images/slider/slider-overlay-line.svg" alt="Линия">
+      </div>
+    </div>
+    <div class="slider__pagination">
+      <button class="slider__pagination-btn slider__pagination-btn_prev" type="button"></button>
+      <button class="slider__pagination-btn slider__pagination-btn_next" type="button"></button>
+    </div>
+  </section>
+
+  <section class="bicycles" id="bicycles">
+    <h2 class="bicycles__title">Велосипеды</h2>
+    <ul class="bicycles__links">
+      <li>
+        <a href="#" class="bicycles__link bicycles__link_active">Шоссе</a>
+      </li>
+      <li>
+        <a href="#" class="bicycles__link">Грэвел</a>
+      </li>
+      <li>
+        <a href="#" class="bicycles__link">TT</a>
+      </li>
+    </ul>
+    <div class="cards">
+      <form>
+        <select class="cards__select" name="cards-select">
+          <option class="cards__option" value="Шоссе">Шоссе</option>
+          <option class="cards__option" value="Грэвел">Грэвел</option>
+          <option class="cards__option" value="TT">TT</option>
+        </select>
+      </form>
+      <ul class="cards__list" lang="en">
+        <li class="cards__item">
+          <article>
+            <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN" target="_blank" class="cards__link">
+              <img src="./images/cards/cards-1.jpg" alt="Cervelo Caledonia-5" class="cards__img">
+            </a>
+            <h3 class="cards__title">Cervelo Caledonia-5</h3>
+          </article>
+        </li>
+        <li class="cards__item">
+          <article>
+            <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J" target="_blank" class="cards__link">
+              <img src="./images/cards/cards-2.jpg" alt="Cannondale Systemsix Himod" class="cards__img">
+            </a>
+            <h3 class="cards__title">Cannondale Systemsix Himod</h3>
+          </article>
+        </li>
+        <li class="cards__item">
+         <article>
+           <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF" target="_blank" class="cards__link">
+             <img src="./images/cards/cards-3.jpg" alt="Trek Domane SL-7" class="cards__img">
+           </a>
+           <p class="cards__title">Trek Domane SL-7</p>
+         </article>
+        </li>
+      </ul>
+      <span class="cards__pagination"></span>
+    </div>
+  </section>
+
+  <section class="workout" id="workout">
+    <h2 class="workout__title">Тренировки</h2>
+    <p class="workout__text">
+      Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.
+    </p>
+    <ul class="workout__links" lang="en">
+      <li>
+        <a href="https://www.strava.com" target="_blank" class="workout__link">Strava</a>
+      </li>
+      <li>
+        <a href="https://www.komoot.com" target="_blank" class="workout__link">Komoot</a>
+      </li>
+    </ul>
+    <img class="workout__img" src="./images/workout/workout-img.jpg" alt="Дорога в лесу с поворотом и склоном">
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__container">
+    <h3 class="footer__title">Подпишитесь на рассылку —</h3>
+    <form class="footer__form" action="#" name="form-subscribe">
+      <input class="footer__input" placeholder="Ваш e-mail" type="email" name="email" required>
+      <button class="footer__submit" type="submit">ок</button>
+    </form>
+    <div class="footer__container-copyright">
+      <p class="footer__copyright" lang="en">&copy; Road Club 2021</p>
+      <span class="footer__icon"></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

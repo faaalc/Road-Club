@@ -1,0 +1,12 @@
+.cards__img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cards__img {
+    width: 254px;
+  }
+}

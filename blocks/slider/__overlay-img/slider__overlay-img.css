@@ -1,0 +1,9 @@
+.slider__overlay-img {
+  width: 50px;
+  object-fit: cover;
+}
+@media screen and (max-width: 425px) {
+  .slider__overlay-img {
+    width: 35px;
+  }
+}

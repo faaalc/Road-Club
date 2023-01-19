@@ -1,0 +1,9 @@
+.slider__pagination-btn_next {
+  background-image: url(../../../../images/slider/slider-btn.svg);
+  transform: rotate(-180deg);
+}
+@media screen and (max-width: 768px) {
+  .slider__pagination-btn_next {
+    background-size: 8px;
+  }
+}

@@ -1,0 +1,15 @@
+.cards__pagination {
+  display: none;
+  width: 22px;
+  height: 4px;
+  background-image: url(../../../images/cards/slide-pagination.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 425px) {
+  .cards__pagination {
+    display: block;
+    margin: 20px auto 0;
+  }
+}

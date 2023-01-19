@@ -1,0 +1,13 @@
+.bicycles__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #E5E5E5;
+  opacity: 0.7;
+  transition: opacity .3s ease-in-out;
+}
+
+.bicycles__link:hover {
+  opacity: 0.5;
+}

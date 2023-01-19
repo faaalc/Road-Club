@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .cards__item {
+    background: #F4F4F4;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cards__item:not(:first-of-type) {
+    display: none;
+  }
+  .cards__item {
+    width: 100%;
+  }
+}

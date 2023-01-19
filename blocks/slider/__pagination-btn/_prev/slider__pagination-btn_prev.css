@@ -1,0 +1,8 @@
+.slider__pagination-btn_prev {
+  background-image: url(../../../../images/slider/slider-btn.svg);
+}
+@media screen and (max-width: 768px) {
+  .slider__pagination-btn_prev {
+    background-size: 8px;
+  }
+}

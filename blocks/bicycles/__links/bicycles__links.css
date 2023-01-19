@@ -1,0 +1,15 @@
+.bicycles__links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-self: end;
+  align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .bicycles__links {
+    display: none;
+  }
+}

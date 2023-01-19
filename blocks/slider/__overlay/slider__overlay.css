@@ -1,0 +1,27 @@
+.slider__overlay {
+  width: 100px;
+  height: 40px;
+  background-image: url(../../../images/slider/slider-overlay.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  .slider__overlay {
+    width: 85px;
+    height: 32px;
+    padding-left: 11px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .slider__overlay {
+    width: 70px;
+    height: 28px;
+  }
+}
